@@ -15,7 +15,7 @@ def streamlit_menu(example=1):
                 icons=["house", "book", "envelope"],  # optional
                 menu_icon="cast",  # optional
                 default_index=0,  # optional
-                orientation ="Horizontal"
+                orientation ="Horizontal",
             )
         return selected
 
