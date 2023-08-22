@@ -8,8 +8,7 @@ EXAMPLE_NO = 1
 def streamlit_menu(example=1):
     if example == 1:
         # 1. as sidebar menu
-        with st.sidebar:
-            selected = option_menu(
+        selected = option_menu(
                 menu_title="Main Menu",  # required
                 options=["Home", "Projects", "Contact"],  # required
                 icons=["house", "book", "envelope"],  # optional
